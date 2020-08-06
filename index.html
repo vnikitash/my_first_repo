@@ -1,0 +1,16 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Test form</h1>
+        <form action="http://localhost:9000/create.php?action=create_user" method="POST" class="form-group">
+            <input type="text" name="email" class="form-control" placeholder="email@example.com">
+            <input type="hidden" name="action" class="form-control" placeholder="email@example.com" value="some_hidden_value">
+            <input type="submit" class="btn btn-success">
+        </form>
+    </div>
+</body>
+</html>
